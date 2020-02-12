@@ -1,0 +1,31 @@
+
+.headerPost {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+/* author  */
+.authorAvatar {
+  border-radius: 50%;
+  width: 45px;
+  padding: 0;
+  margin: 0;
+}
+.authorDescription {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  padding: 15px;
+}
+.authorDescription > small {
+  padding: 3px 0 3px 0;  
+  color: #b1b1b1;
+}
+/* corpos do post */
+.bodyPost {
+  padding: 30px 5px 30px 5px;
+  /* text-align: left; */
+  /* white-space: pre; */
+  font-size: 18px;
+}

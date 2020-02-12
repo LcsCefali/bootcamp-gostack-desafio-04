@@ -1,0 +1,48 @@
+
+.postList {
+  margin:  35px 200px 35px 200px;
+  text-align: center;
+  transition: all 220ms ease-in-out;
+}
+.posts {
+  background: #FFF;
+  margin: 30px 0 30px 0;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(71, 71, 71, 0.144), 0 6px 20px 0 rgba(71, 71, 71, 0.144);
+}
+
+@media (max-width: 1110px){
+  .postList {
+    margin:  35px 130px 35px 130px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1000px){
+  .postList {
+    margin:  35px 115px 35px 115px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 910px){
+  .postList {
+    margin:  35px 80px 35px 80px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 750px){
+  .postList {
+    margin:  35px 15px 35px 15px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 700px){
+  .postList {
+    margin:  35px 10px 35px 10px;
+    text-align: center;
+  }
+}

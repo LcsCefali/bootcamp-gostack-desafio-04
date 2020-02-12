@@ -1,0 +1,41 @@
+/* comments */
+.comments {
+  padding: 20px 10px 20px 10px;
+  border-top: 1px solid #ececec;
+}
+.commentsAvatar {
+  width: 45px;
+  padding: 0;
+  margin: 0;
+}
+.content{
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+}
+
+.comment{
+  margin-left: 20px;
+  padding: 15px 15px 15px 15px;
+  background: #eeeeee;
+  border-radius: 15px;
+  font-size: 14px;
+}
+
+.comment > strong {
+  font-size: 15px;
+  padding-right: 5px;
+}
+/* novos comentarios */
+.newComment{
+  padding: 20px 10px 20px 10px;
+}
+.new {
+  flex: 1;
+  border: 0;
+  border-bottom: 1px solid #8d8d8d;
+  padding: 10px 15px;
+  border-radius: 4px;
+  outline: none;
+}
