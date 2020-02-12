@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import Post from '../Post/Post';
-import avatar from '../../assets/icone-dre.png';
-import './PostList.css'
-// import { Container } from './styles';
+import avatar from '../../assets/icone-dre.png'; // sem outras imagens para colocar :/ sorry
+import './PostList.css';
 
 class PostList extends Component {
   state = {
@@ -11,61 +10,53 @@ class PostList extends Component {
         id: 1,
         author: {
           name: "Lucas Cefali",
-          avatar
+          avatar: 'https://avatars2.githubusercontent.com/u/59941872?s=400&u=e0c468349bbcd6c157aef6d509ebc1510648d34c&v=4'
         },
-        date: "04 Jun 2019",
+        date: "12 Fev 2020",
         content: "Pessoal, alguém sabe se a Rocketseat está contratando?",
         comments: [
           {
             id: 1,
             author: {
               name: "Diego Fernandes",
-              avatar
+              avatar: 'https://avatars1.githubusercontent.com/u/2254731?s=400&v=4'
             },
-            content: "Conteúdo do comentário"
+            content: "Estamos contratando sim!!"
           }
         ]
       },
       {
         id: 2,
         author: {
-          name: "JC",
-          avatar
+          name: "Julio Cesar",
+          avatar: 'https://avatars0.githubusercontent.com/u/47666142?s=400&v=4'
         },
-        date: "04 Jun 2019",
-        content: "Pessoal, alguém sabe se a Rocketseat está contratando?",
+        date: "11 Fev 2020",
+        content: "React esta me encantando kkkkkkkkk",
         comments: [
           {
             id: 1,
             author: {
-              name: "Diego Fernandes",
-              avatar
+              name: "Lucas Cefali",
+              avatar: 'https://avatars2.githubusercontent.com/u/59941872?s=400&u=e0c468349bbcd6c157aef6d509ebc1510648d34c&v=4'
             },
-            content: "Estao contratando sim"
+            content: "hahahahah eu disse que ia curtir !"
           },
           {
             id: 2,
             author: {
-              name: "Joaõ",
+              name: "Eric",
               avatar
             },
-            content: "pao de batata"
+            content: "Massa Bro"
           },
           {
             id: 3,
             author: {
-              name: "Alow",
-              avatar
-            },
-            content: "só passando para dar oi"
-          },
-          {
-            id: 4,
-            author: {
               name: "Bruno",
               avatar
             },
-            content: "yesss"
+            content: "só estou preenchendo os comentarios deste Post.\n Bora codar clã !"
           }
         ]
       }
